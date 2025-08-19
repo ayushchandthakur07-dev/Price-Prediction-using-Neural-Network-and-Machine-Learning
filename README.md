@@ -39,14 +39,18 @@ This repository showcases my work on the following three models:
 
 ---
 
-##  Getting Started
-
-To run these models locally, follow these steps.
-
 ### **Prerequisites**
 Make sure you have Python 3.8+ installed on your system.
 
-   ```sh
-   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+## 📈 Results & Performance
+
+Here is a summary of the performance metrics for each model on the test dataset:
+
+| Model | R² Score | MAE ($) | RMSE ($) |
+| :--- | :---: | :---: | :---: |
+| Random Forest | 0.8160 | 5.56 | 8.27 |
+| CNN-LSTM Hybrid | 0.6844 | 7.60 | 9.74 |
+| LSTM with Attention | 0.2733 | 12.16 | 14.75 |
+  
    cd your-repo-name
 
