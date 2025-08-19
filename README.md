@@ -1,14 +1,14 @@
-# Price Prediction with Ensemble and Hybrid Neural Models 📈
+# Price Prediction with Ensemble and Hybrid Neural Models 
 
 This repository contains a Statistics Project titled "Price prediction using Neural Network,". It explores the application and comparison of advanced machine learning models to forecast the stock price of Apple Inc. (AAPL).
 
-## 📝 Overview
+##  Overview
 
 The primary goal of this project is to implement and evaluate various sophisticated models for financial time-series forecasting by leveraging historical stock data, this analysis compares the effectiveness of an ensemble method (Random Forest) against hybrid deep learning architectures (CNN-LSTM and LSTM with Attention) in capturing complex market dynamics.The dataset consists of daily AAPL stock data from **2013 to 2023**, sourced via the `yfinance` library.
 
 ---
 
-## 📊 Models Implemented
+##  Models Implemented
 
 This repository showcases my work on the following three models:
 
@@ -18,7 +18,7 @@ This repository showcases my work on the following three models:
 
 ---
 
-## ✨ Features
+##  Features
 
 -   **Advanced Feature Engineering:** Created features like lagged prices, moving averages (MA44, MA7, MA21), momentum, rate of change (ROC), and volatility to enrich the input data.
 -   **Model Comparison:** Rigorous evaluation using standard regression metrics to compare the predictive power of different architectures.
@@ -27,7 +27,7 @@ This repository showcases my work on the following three models:
 
 ---
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 -   **Python 3.x**
 -   **TensorFlow:** For building the CNN-LSTM and LSTM with Attention models.
@@ -42,7 +42,7 @@ This repository showcases my work on the following three models:
 ### **Prerequisites**
 Make sure you have Python 3.8+ installed on your system.
 
-## 📈 Results & Performance
+##  Results & Performance
 
 Here is a summary of the performance metrics for each model on the test dataset:
 
@@ -52,5 +52,4 @@ Here is a summary of the performance metrics for each model on the test dataset:
 | CNN-LSTM Hybrid | 0.6844 | 7.60 | 9.74 |
 | LSTM with Attention | 0.2733 | 12.16 | 14.75 |
   
-   cd your-repo-name
 
